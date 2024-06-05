@@ -1,13 +1,25 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, CommonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'zegel-angular-class-spa';
+  name = 'Job Daniel Pacheco Carrasco';
+
+  headerStyle ={
+    'color': 'red',
+    'font-family' : 'verdana, sans-serif'
+  }
+
+  parrafoClass ={
+    'blue-text': true,
+  }
 }
+
