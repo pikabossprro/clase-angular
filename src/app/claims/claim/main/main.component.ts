@@ -12,11 +12,11 @@ export class MainComponent {
   constructor(private router: Router){}
 
   registrarReclamacion(): void {
-    this.router.navigate(['/Claims/claim/registrar-reclamo']);
+    this.router.navigate(['/Claims/registrar-reclamo']);
   }
 
   ConsultarReclamacion(): void{
-    this.router.navigate(['/Claims/claim/consultar-reclamo']);
+    this.router.navigate(['/Claims/consultar-reclamo']);
 
   }
 

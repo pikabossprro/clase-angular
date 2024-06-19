@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+.notification {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+h1 {
+    color: #007bff;
+}
+p {
+    margin-bottom: 15px;
+}
+.back-link {
+    margin-top: 20px;
+}
+.back-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+.back-link a:hover {
+    text-decoration: underline;
+}

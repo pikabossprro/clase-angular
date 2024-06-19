@@ -1,1 +1,16 @@
-<p>claim-query works!</p>
+<div class="claim">
+    <p>Consulta tu reclamo</p>
+    <div>
+        <form action="#" method="post">
+            <label for="nombre">ingresa el numero de reclamo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <input type="submit" value="Consultar">
+        </form>
+    </div>
+    <button (click)="returnmain()" class=" btn btn-primary" >regresar al menu</button>
+    
+    <button (click)="notification()" class=" btn btn-primary" >ir a notificaciones</button>
+
+</div>
+
