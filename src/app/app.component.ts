@@ -1,25 +1,18 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, UpperCasePipe } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { ClaimRegisterComponent } from './claims/claim/claim-register/claim-register.component';
+
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CommonModule],
+  imports: [RouterOutlet, CommonModule, ClaimRegisterComponent, UpperCasePipe],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'zegel-angular-class-spa';
-  name = 'Job Daniel Pacheco Carrasco';
 
-  headerStyle ={
-    'color': 'red',
-    'font-family' : 'verdana, sans-serif'
-  }
-
-  parrafoClass ={
-    'blue-text': true,
-  }
 }
 
